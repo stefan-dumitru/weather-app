@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+}
+
+#weatherApp {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+}
+
+#map {
+    flex: 1;
+    height: 50vh;
+}
+
+#location-input {
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 25px;
+}
+
+#current-weather-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+#weather-data, #forecast-data {
+    margin: 0 auto;
+    width: 300px;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.forecast-day {
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
